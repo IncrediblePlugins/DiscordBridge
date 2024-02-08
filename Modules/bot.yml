@@ -1,0 +1,18 @@
+enabled: true
+
+# Bot configuration
+general:
+  # Enter your bot token here.
+  # How to setup a Discord bot: https://discordpy.readthedocs.io/en/latest/discord.html
+  token: 'token'
+  # Set the status of your Discord Bot
+  status:
+    # Default status message:
+    # Setting this to '' will disable it.
+    message: ''
+    # Should the bot set the latest announcement message from Lands as the status?
+    # This requires the module Lands (lands.yml) to be enabled.
+    lands-announcement: true
+
+  # Set the color of message embeds.
+  embed-color: '#04eb00'

@@ -1,0 +1,50 @@
+enabled: true
+
+# Configure land channels.
+channels:
+  # Set the maximum total amount of land chat channels.
+  # Discord has a channel limit of 500 channels per server.
+  max: 450
+  # Should the embeds of the messages set the player head as the author image?
+  # This feature uses https://crafatar.com to resolve the player head images.
+  # NOTE: This option requires server reload / restart.
+  heads: true
+  # Should a text channel be created?
+  text:
+    enabled_2: true
+    # Available permissions: https://ci.dv8tion.net/job/JDA/javadoc/net/dv8tion/jda/api/Permission.html
+    permissions:
+      text-owner_list:
+        - VIEW_CHANNEL
+        - MESSAGE_HISTORY
+        - MESSAGE_SEND
+        - MESSAGE_ATTACH_FILES
+        - MESSAGE_EMBED_LINKS
+        - USE_APPLICATION_COMMANDS
+      text-member_list:
+        - VIEW_CHANNEL
+        - MESSAGE_HISTORY
+        - MESSAGE_SEND
+        - MESSAGE_ATTACH_FILES
+        - MESSAGE_EMBED_LINKS
+        - USE_APPLICATION_COMMANDS
+
+  # Should a voice channel be created?
+  voice:
+    enabled_3: true
+    # Available permissions: https://ci.dv8tion.net/job/JDA/javadoc/net/dv8tion/jda/api/Permission.html
+    permissions:
+      voice-owner_list:
+        - VIEW_CHANNEL
+        - MESSAGE_HISTORY
+        - MESSAGE_SEND
+        - MESSAGE_ATTACH_FILES
+        - MESSAGE_EMBED_LINKS
+        - USE_APPLICATION_COMMANDS
+      voice-member_list:
+        - VIEW_CHANNEL
+        - MESSAGE_HISTORY
+        - MESSAGE_SEND
+        - MESSAGE_ATTACH_FILES
+        - MESSAGE_EMBED_LINKS
+        - USE_APPLICATION_COMMANDS

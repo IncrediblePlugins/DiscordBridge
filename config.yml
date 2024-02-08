@@ -1,0 +1,38 @@
+# This is the configuration for the DiscordSRV addon.
+# Please note that you'll need to have Lands installed and setup.
+#
+# Lands: https://www.spigotmc.org/resources/53313
+
+
+# General configuration
+general:
+  # Default: English (en-US) - no download required.
+  # This defines the default language. You can place multiple locales in the plugin's "Language" folder to display different locales depending on the player's locale.
+  # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
+  # To access translations, other than en-US, execute /translations in the Discord server.
+  language: 'en-US'
+  # Set the format of all economy related displays.
+  # NOTE: This setting requires server reload / restart.
+  eco-format: '#,###.00'
+
+
+# Database options
+database:
+  # MySQL database
+  # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
+  mysql:
+    enabled_20: false
+    ip-address: 'localhost'
+    port: '3306'
+    username: 'minecraft'
+    password: 'password'
+    database: 'discordbridge'
+
+    # It is highly recommended to set a unique table prefix if the plugin shares a database with other plugins or Lands instances.
+    table-prefix: 'discordbridge_'
+
+commands:
+  # Should commands be global commands instead of guild commands.
+  # NOTE: Global commands take up to 1 hour to update. So they won't be visible and executeable for the first hour after installation.
+  # https://discord.com/developers/docs/interactions/slash-commands
+  global: false
