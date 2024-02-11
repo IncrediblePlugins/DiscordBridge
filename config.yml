@@ -21,7 +21,7 @@ database:
   # MySQL database
   # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
   mysql:
-    enabled_20: false
+    enabled: false
     ip-address: 'localhost'
     port: '3306'
     username: 'minecraft'
@@ -30,6 +30,11 @@ database:
 
     # It is highly recommended to set a unique table prefix if the plugin shares a database with other plugins or Lands instances.
     table-prefix: 'discordbridge_'
+
+  redis:
+    enabled_2: false
+    master: true
+    address: "redis://127.0.0.1:6379"
 
 commands:
   # Should commands be global commands instead of guild commands.
