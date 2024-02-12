@@ -41,3 +41,9 @@ commands:
   # NOTE: Global commands take up to 1 hour to update. So they won't be visible and executeable for the first hour after installation.
   # https://discord.com/developers/docs/interactions/slash-commands
   global: false
+
+
+# Configure logging
+logging:
+  # We might ask you to enable this, when you submit a bugreport.
+  debug: false

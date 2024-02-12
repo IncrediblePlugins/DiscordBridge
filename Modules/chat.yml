@@ -1,0 +1,18 @@
+# This module forwards chat from your Minecraft server to a Discord channel.
+# Setup: Execute in your Discord server: /discordbridge config set CHAT_CHANNEL
+enabled: true
+
+forward:
+  # Forward messages from Discord to Minecraft?
+  # Only chat messages that were sent in the channel defined by "/discordbridge config set CHAT_CHANNEL" will be forwarded.
+  discord:
+    enabled_2: true
+    # Only forward messages from Discord users that have their account linked to a Minecraft account.
+    # This has the advantage that it will display the Minecraft username instead of the Discord username.
+    # If true: Messages from users that don't have their accounts linked, will be ignored.
+    force-link: true
+    # The message format
+    format: "&8[&9Discord&8]&7 {player} &8»&f {message}"
+
+  # Forward messages from Minecraft to Discord?
+  minecraft: true

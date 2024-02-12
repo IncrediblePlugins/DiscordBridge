@@ -1,3 +1,5 @@
+# Setup: Execute in your Discord server: /discordbridge config set LANDS_CHAT_CATEGORY
+# Setup: Execute in your Discord server: /discordbridge config set LANDS_ANNOUNCEMENTS_CHANNEL
 enabled: true
 
 # Configure land channels.
