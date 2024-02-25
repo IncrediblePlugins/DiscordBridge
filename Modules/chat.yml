@@ -1,5 +1,4 @@
-# This module forwards chat from your Minecraft server to a Discord channel.
-# Setup: Execute in your Discord server: /discordbridge config set CHAT_CHANNEL
+# Info and Setup: https://github.com/Angeschossen/DiscordBridge/wiki/Chat-Module
 enabled: true
 
 forward:

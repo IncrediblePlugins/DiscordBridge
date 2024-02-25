@@ -14,7 +14,9 @@ general:
   # Set the format of all economy related displays.
   # NOTE: This setting requires server reload / restart.
   eco-format: '#,###.00'
-
+  # Lets you define the provider to be used for retrieving skins for chat messages in Discord.
+  # Relevant to the following modules: chat, lands
+  head-provider: 'https://mc-heads.net/avatar/{uuid}'
 
 # Database options
 database:
@@ -35,12 +37,6 @@ database:
     enabled_2: false
     master: true
     address: "redis://127.0.0.1:6379"
-
-commands:
-  # Should commands be global commands instead of guild commands.
-  # NOTE: Global commands take up to 1 hour to update. So they won't be visible and executeable for the first hour after installation.
-  # https://discord.com/developers/docs/interactions/slash-commands
-  global: false
 
 
 # Configure logging

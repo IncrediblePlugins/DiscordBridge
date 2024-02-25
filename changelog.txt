@@ -1,1 +1,4 @@
-- Fixed: help command
++ Added: Option to change head provider -config.yml:
+  # Lets you define the provider to be used for retrieving skins for chat messages in Discord.
+  # Relevant to the following modules: chat, lands
+  head-provider: 'https://mc-heads.net/avatar/{uuid}'
