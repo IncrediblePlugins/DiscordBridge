@@ -15,3 +15,13 @@ forward:
 
   # Forward messages from Minecraft to Discord?
   minecraft: true
+
+
+# Send messages to Discord at specific events.
+events:
+  # Send player join messages to Discord?
+  # Requires /config set event_channel to be executed in the Discord server.
+  join: true
+  # Send player leave messages to Discord?
+  # Requires /config set event_channel to be executed in the Discord server.
+  quit: true

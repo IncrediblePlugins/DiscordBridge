@@ -11,6 +11,8 @@ general:
   # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
   # To access translations, other than en-US, execute /translations in the Discord server.
   language: 'en-US'
+  # The name of the server this instance is running on. This is relevant for player leave and join messages etc.
+  server-name: "Server-Name"
   # Set the format of all economy related displays.
   # NOTE: This setting requires server reload / restart.
   eco-format: '#,###.00'
@@ -18,25 +20,39 @@ general:
   # Relevant to the following modules: chat, lands
   head-provider: 'https://mc-heads.net/avatar/{uuid}'
 
+
+webhooks:
+  # Properties used when sending a webhook message, that doesn't represent a player message.
+  default:
+    # Webhook names can't include the word "discord".
+    username_3: "Minecraft"
+    avatar-url: "https://images.landsplugin.com/discordbridge/icons/discord-avatar.jpg"
+
+
 # Database options
 database:
   # MySQL database
   # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
   mysql:
     enabled: false
-    ip-address: 'localhost'
-    port: '3306'
-    username: 'minecraft'
-    password: 'password'
-    database: 'discordbridge'
+    ip-address: "localhost"
+    port: "3306"
+    username: "minecraft"
+    password: "password"
+    database: "discordbridge"
 
     # It is highly recommended to set a unique table prefix if the plugin shares a database with other plugins or Lands instances.
-    table-prefix: 'discordbridge_'
+    table-prefix: "discordbridge_"
 
+  # Optional: Used to forward information to the instance of DiscordBridge that runs the Discord bot.
+  # Modules that benefit from this: chat, lands
   redis:
     enabled_2: false
-    master: true
-    address: "redis://127.0.0.1:6379"
+    master: false # Should be true, if this instance runs the Discord bot
+    address: "redis://127.0.0.1"
+    port_2: 6379
+    username_2: "default"
+    password_2: "password"
 
 
 # Configure logging

@@ -2,3 +2,23 @@
   # Lets you define the provider to be used for retrieving skins for chat messages in Discord.
   # Relevant to the following modules: chat, lands
   head-provider: 'https://mc-heads.net/avatar/{uuid}'
+
++ Added: Redis authentication for non-local redis instances
+  # Optional: Used to forward information to the instance of DiscordBridge that runs the Discord bot.
+  redis:
+    enabled_2: false
+    master: true
+    address: "redis://127.0.0.1"
+    port: 6379
+    username: "minecraft"
+    password: "password"
+
++ Added: Send player join and leave messages to discord - chat.yml:
+# Send messages to Discord at specific events.
+events:
+  # Send player join messages to Discord?
+  # Requires /config set event_channel to be executed in the Discord server.
+  join: true
+  # Send player leave messages to Discord?
+  # Requires /config set event_channel to be executed in the Discord server.
+  quit: true
