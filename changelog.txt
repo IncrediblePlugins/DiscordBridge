@@ -43,3 +43,4 @@
         - '30d'
 
 + Added: Limit who can link accounts by adding /config set LINK_REQUIRED_ROLE
++ Added: GUI menu: /discord account
