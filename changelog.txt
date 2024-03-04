@@ -41,3 +41,5 @@
         - '8d'
         - '15d'
         - '30d'
+
++ Added: Limit who can link accounts by adding /config set LINK_REQUIRED_ROLE
