@@ -19,7 +19,8 @@ general:
   # Lets you define the provider to be used for retrieving skins for chat messages in Discord.
   # Relevant to the following modules: chat, lands
   head-provider: 'https://mc-heads.net/avatar/{uuid}'
-
+  # Invite URL to your Discord server. This URL is used in some modules.
+  invite-url: "https://discord.gg/YOUR_INVITE"
 
 webhooks:
   # Properties used when sending a webhook message, that doesn't represent a player message.

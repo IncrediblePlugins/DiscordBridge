@@ -1,2 +1,9 @@
 # Info and Setup: https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module
 enabled: true
+
+# Should players that don't have their account linked, be kicked upon join or unlinking their account?
+# The kick reason will include instruction on how they can link their account.
+# NOTE: Make sure invite-url is configured in config.yml.
+# NOTE: Changing this option requires server reload / restart.
+kick-unlinked:
+  enabled_2: false

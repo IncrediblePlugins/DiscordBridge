@@ -1,12 +1,7 @@
-+ Added: [Suggestion] Option to only allow linked players to join:
-    # Should players that don't have their account linked, be kicked upon join or unlinking their account?
-    # The kick reason will include instruction on how they can link their account.
-    # NOTE: Make sure invite-url is configured in config.yml.
-    # NOTE: Changing this option requires server reload / restart.
-    kick-unlinked:
-      enabled_2: false
+enabled: true
 
-+ Added: Option new module: events.yml
+# Send messages to Discord at specific events.
+events:
   player:
     # Send player join messages to Discord?
     # Requires /config set event_channel to be executed in the Discord server.
@@ -31,7 +26,10 @@
       # You can find a list of available advancements by tab completing the following command in your Minecraft server: /advancement grant @s only
       advancements_list:
         - '*'
+
+    # Send message when a player reaches a new playtime milestone.
     playtime:
+      # Each playtime milestone must be at least one minute apart.
       # NOTE: Changing this option requires server reload / restart.
       playtime-announcements_list:
         - '1h'
