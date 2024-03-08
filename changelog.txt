@@ -1,2 +1,14 @@
-+ Added: Being able to provide multiple roles required for linking. The user must have at least one of them
-https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module#setup
++ Added: [Suggestion] Server stopped and started messages
+  server:
+    started:
+      embeds:
+        one:
+          title: "Server {server} is now online."
+    stopping:
+      embeds:
+        one:
+          title: "Server {server} is now offline."
+
++ Improved: Sending webhook messages faster
++ Improved: Less rate limits for webhooks
+- Fixed: Don't send advancements with no description and title
