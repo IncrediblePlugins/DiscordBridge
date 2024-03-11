@@ -7,3 +7,7 @@ enabled: true
 # NOTE: Changing this option requires server reload / restart.
 kick-unlinked:
   enabled_2: false
+
+# Sets the users nickname in the Discord server to the name of the linked Minecraft account.
+# This also works for offline players. It might take up to a few hours until the name updates.
+name-sync: false

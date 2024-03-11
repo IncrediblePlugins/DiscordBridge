@@ -1,14 +1,5 @@
-+ Added: [Suggestion] Server stopped and started messages
-  server:
-    started:
-      embeds:
-        one:
-          title: "Server {server} is now online."
-    stopping:
-      embeds:
-        one:
-          title: "Server {server} is now offline."
++ Added: [Suggestion] sync name feature for linking.yml module
 
-+ Improved: Sending webhook messages faster
-+ Improved: Less rate limits for webhooks
-- Fixed: Don't send advancements with no description and title
+    # Sets the users nickname in the Discord server to the name of the linked Minecraft account.
+    # This also works for offline players. It might take up to a few hours until the name updates.
+    name-sync: false
