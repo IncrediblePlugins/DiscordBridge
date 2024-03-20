@@ -36,7 +36,7 @@ database:
   # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
   mysql:
     enabled: false
-    ip-address: "localhost"
+    address: "localhost"
     port: "3306"
     username: "minecraft"
     password: "password"
@@ -50,7 +50,7 @@ database:
   redis:
     enabled_2: false
     master: false # Should be true, if this instance runs the Discord bot
-    address: "redis://127.0.0.1"
+    address_2: "redis://127.0.0.1"
     port_2: 6379
     username_2: "default"
     password_2: "password"

@@ -1,7 +1,2 @@
-+ Added: [Suggestion] sync name feature for linking.yml module
-
-    # Sets the users nickname in the Discord server to the name of the linked Minecraft account.
-    # This also works for offline players. It might take up to a few hours until the name updates.
-    name-sync: false
-
-- Fixed: Error on sending webhook
++ Added: Linking module now works across multiple servers properly
+- Fixed: MySQL init error
