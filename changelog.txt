@@ -1,2 +1,1 @@
-+ Added: Linking module now works across multiple servers properly
-- Fixed: MySQL init error
++ Added: [Suggestion] Linking placeholders: https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module#placeholderapi-placeholders
