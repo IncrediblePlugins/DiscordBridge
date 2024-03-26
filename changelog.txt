@@ -1,1 +1,1 @@
-- Fixed: Linking role not being given
++ Added: [Suggestion] Don't display events for players that are vanished
