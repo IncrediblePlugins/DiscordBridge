@@ -1,1 +1,1 @@
-+ Added: [Suggestion] Don't display events for players that are vanished
++ Added: SuperVanish support
