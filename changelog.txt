@@ -1,1 +1,2 @@
-+ Added: SuperVanish support
++ Added: [Suggestion] Send fake login/logout messages if player vanishes. Supports: CMI, SuperVanish, PremiumVanish
++ Added: [Suggestion] Send message if player tries to chat from discord to minecraft and hasn't linked their accounts
