@@ -1,2 +1,1 @@
-- Fixed: /lands channel create - unknown interaction
-- Fixed: Linked account name displaying id instead of discord username
++ Added: Ticket M
