@@ -17,3 +17,10 @@ general:
 
   # Set the color of message embeds.
   embed-color: '#04eb00'
+
+webhooks:
+  # Properties used when sending a webhook message, that doesn't represent a player message.
+  default:
+    # Webhook names can't include the word "discord".
+    username_3: "Minecraft"
+    avatar-url: "https://images.landsplugin.com/discordbridge/icons/discord-avatar.jpg"

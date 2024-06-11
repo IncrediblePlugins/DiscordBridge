@@ -47,13 +47,6 @@ general:
   # Invite URL to your Discord server. This URL is used in some modules.
   invite-url: "https://discord.gg/YOUR_INVITE"
 
-webhooks:
-  # Properties used when sending a webhook message, that doesn't represent a player message.
-  default:
-    # Webhook names can't include the word "discord".
-    username_3: "Minecraft"
-    avatar-url: "https://images.landsplugin.com/discordbridge/icons/discord-avatar.jpg"
-
 
 # Database options
 database:
