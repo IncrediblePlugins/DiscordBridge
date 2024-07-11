@@ -6,10 +6,6 @@ channels:
   # Set the maximum total amount of land chat channels.
   # Discord has a channel limit of 500 channels per server.
   max: 450
-  # Should the embeds of the messages set the player head as the author image?
-  # This feature uses https://crafatar.com to resolve the player head images.
-  # NOTE: This option requires server reload / restart.
-  heads: true
   # Should a text channel be created?
   text:
     enabled_2: true

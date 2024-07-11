@@ -1,1 +1,1 @@
-- Fixed: Error at /discordbridge help
+- Fixed: Player heads for chat and lands module
