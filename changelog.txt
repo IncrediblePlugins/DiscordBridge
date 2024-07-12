@@ -1,1 +1,4 @@
-- Fixed: Player heads for chat and lands module
++ Added: [Suggestion] Option to forward Discord message to all other Discord servers:
+    # Forward messages from one Discord server to all other Discord servers that have a chat channel set?
+    # If you only want messages from Minecraft to be sent to all Discord servers, you don't need that option to be enabled.
+    all-servers: false
