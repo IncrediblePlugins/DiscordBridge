@@ -3,7 +3,7 @@ enabled: true
 
 forward:
   # Forward messages from Discord to Minecraft?
-  # Only chat messages that were sent in the channel defined by "/discordbridge config set CHAT_CHANNEL" will be forwarded.
+  # Only chat messages that were sent in the channel defined by "/config set CHAT_CHANNEL" will be forwarded.
   discord:
     enabled_2: true
     # Only forward messages from Discord users that have their account linked to a Minecraft account.
