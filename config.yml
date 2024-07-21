@@ -69,6 +69,8 @@ database:
     enabled_2: false
     address_2: "redis://127.0.0.1"
     port_2: 6379
+    # Database index. No other plugin should use the same index.
+    database-index: 1
     username_2: "default"
     password_2: "password"
     # This should be the name that you configured for this server in your BungeeCord or Velocity config.
