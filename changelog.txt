@@ -1,1 +1,1 @@
-- Fixed: Link usage embed
++ Added: Redis support for lands broadcast messages
