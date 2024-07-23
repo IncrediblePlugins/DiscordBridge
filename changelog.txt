@@ -1,1 +1,7 @@
-+ Added: Redis support for lands broadcast messages
++ Added: Option to blacklist broadcast categories for Lands
+broadcast:
+  # Prevent specific categories from being sent to the lands broadcast channel.
+  # Available categories can be found here: https://javadoc.jitpack.io/com/github/angeschossen/LandsAPI/7.8.5/javadoc/me/angeschossen/lands/api/events/BroadcastEvent.html
+  # NOTE: If the broadcast messages are already disabled in Lands, they won't be sent for DiscordBridge either.
+  #       This just allows you to disable broadcast messages for Discord, while keeping them enabled ingame.
+  category-blacklist_list: []
