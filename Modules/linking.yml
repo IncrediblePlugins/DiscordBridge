@@ -11,10 +11,3 @@ kick-unlinked:
 # Sets the users nickname in the Discord server to the name of the linked Minecraft account.
 # This also works for offline players. It might take up to a few hours until the name updates.
 name-sync: false
-
-sync:
-  name: false
-  group_list:
-    - "groupName:roleId"
-  roles_list:
-    - "roleId:groupName"
