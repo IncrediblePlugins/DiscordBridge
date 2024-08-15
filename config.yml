@@ -74,8 +74,10 @@ database:
     username_2: "default"
     password_2: "password"
     # This should be the name that you configured for this server in your BungeeCord or Velocity config.
+    # NOTE: If you're using mutlipaper, this option will be overridden by multipaper's own name decision.
     server-name: "server-1"
     # Should be true, if this instance runs the Discord bot.
+    # NOTE: If you're using multipaper, make sure to provide the actual name of the multipaper instance that should be the master server (not the multipaper master).
     master: false
 
 # Configure logging

@@ -1,2 +1,1 @@
-- Fixed: Message not found: general.chat-channel
-- Fixed: Remove color codes for chat messages
+- Fixed: Failing to forward lands ingame chat, if bot does not have admin perm
