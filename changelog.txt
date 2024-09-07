@@ -1,1 +1,1 @@
-- Fixed: Failing to forward lands ingame chat, if bot does not have admin perm
++ Changed: Access to commands can now be limited in the integration settings tab of your server
