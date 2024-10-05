@@ -1,1 +1,1 @@
-+ Changed: Access to commands can now be limited in the integration settings tab of your server
+- Fixed: Discord bot connection sometimes not re-established
