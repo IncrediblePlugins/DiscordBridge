@@ -1,1 +1,2 @@
-- Fixed: Sync player to channels upon verification (lands module)
++ Added: [Suggestion] /discord invite - get invite URL
+More info: https://github.com/Angeschossen/DiscordBridge/wiki/Bot-Module
