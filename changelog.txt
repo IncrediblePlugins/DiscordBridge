@@ -1,1 +1,1 @@
-- Fixed: Discord bot connection sometimes not re-established
+- Fixed: Sync player to channels upon verification (lands module)
