@@ -1,2 +1,4 @@
 + Added: [Suggestion] /discord invite - get invite URL
-More info: https://github.com/Angeschossen/DiscordBridge/wiki/Bot-Module
+More info: https://github.com/Angeschossen/DiscordBridge/wiki/Bot-Module#commands
+
+- Fixed: Tickets not recognized after Discord cache refresh
