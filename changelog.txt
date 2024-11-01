@@ -1,1 +1,4 @@
-+ Added: [Suggestion] You can now give roles to linked players. Setup: https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module#setup
++ Added: [Suggestion] You can now use PlaceholderAPI placeholders for chat format
+    # You can use PlaceholderAPI placeholders for the message format.
+    # If you need the player's UUID, use {player_uuid}.
+    format: "&8[&9Discord&8]&7 {player} &8»&f {message}"

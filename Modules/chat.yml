@@ -10,7 +10,8 @@ forward:
     # This has the advantage that it will display the Minecraft username instead of the Discord username.
     # If true: Messages from users that don't have their accounts linked, will be ignored.
     force-link: true
-    # The message format
+    # You can use PlaceholderAPI placeholders for the message format.
+    # If you need the player's UUID, use {player_uuid}.
     format: "&8[&9Discord&8]&7 {player} &8»&f {message}"
     # Forward messages from one Discord server to all other Discord servers that have a chat channel set?
     # If you only want messages from Minecraft to be sent to all Discord servers, you don't need that option to be enabled.
