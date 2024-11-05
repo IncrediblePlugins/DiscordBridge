@@ -1,11 +1,2 @@
-+ Added: [Suggestion] You can now use PlaceholderAPI placeholders for chat format
-    # You can use PlaceholderAPI placeholders for the message format.
-    # If you need the player's UUID, use {player_uuid}.
-    format: "&8[&9Discord&8]&7 {player} &8»&f {message}"
-
-+ Added: [Suggestion] You can now setup rewards for linking account
-    # Reward an in-game player, if they link their account.
-    # You can here add commands that are executed by the console when a player links his account.
-    # These commands are only executed once for a linked player. If they unlink their account and later
-    # link it again, they won't be executed another time.
-    reward-commands_list: [ ]
++ Added: [Suggestion] You can now setup LuckPerms groups to be given to linked players ingame
+https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module#setup
