@@ -1,2 +1,1 @@
-+ Added: [Suggestion] You can now setup LuckPerms groups to be given to linked players ingame
-https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module#setup
+- Fixed: Missing invite command help message
