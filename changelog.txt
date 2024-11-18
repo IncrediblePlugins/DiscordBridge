@@ -1,1 +1,1 @@
-- Fixed: Missing invite command help message
+- Fixed: Config command set text channel
