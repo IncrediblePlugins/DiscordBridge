@@ -1,4 +1,4 @@
-# Info and Setup: https://github.com/Angeschossen/DiscordBridge/wiki/Events-Module
+# Info and Setup: https://wiki.incredibleplugins.com/discordbridge/modules/events
 enabled: true
 
 # Send messages to Discord at specific events.

@@ -1,4 +1,4 @@
-This repo contains all up to date default config files and the wiki.
+This repo contains all up-to-date default config files and the wiki.
 
 # Wiki
-https://github.com/Angeschossen/DiscordBridge/wiki
+https://wiki.incredibleplugins.com/discordbridge

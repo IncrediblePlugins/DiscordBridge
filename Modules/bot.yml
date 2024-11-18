@@ -1,4 +1,4 @@
-# Info and setup: https://github.com/Angeschossen/DiscordBridge/wiki/Bot-Module
+# Info and setup: https://wiki.incredibleplugins.com/discordbridge/modules/bot
 enabled: true
 
 # Bot configuration
@@ -28,4 +28,4 @@ webhooks:
   default:
     # Webhook names can't include the word "discord".
     username_3: "Minecraft"
-    avatar-url: "https://images.landsplugin.com/discordbridge/icons/discord-avatar.jpg"
+    avatar-url: "https://images.incredibeplugins.com/discordbridge/icons/discord-avatar.jpg"

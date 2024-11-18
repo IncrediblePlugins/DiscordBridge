@@ -1,4 +1,4 @@
-# Info and Setup: https://github.com/Angeschossen/DiscordBridge/wiki/Linking-Module
+# Info and Setup: https://wiki.incredibleplugins.com/discordbridge/modules/linking
 enabled: true
 
 # Should players that don't have their account linked, be kicked upon join or unlinking their account?
