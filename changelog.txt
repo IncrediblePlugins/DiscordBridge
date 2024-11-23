@@ -1,1 +1,2 @@
-- Fixed: Config command set text channel
++ Added: [Tickets] You can now set a short name and a category for each ticket type
+- Fixed: Chat module format (discord -> mc)
