@@ -1,2 +1,1 @@
-- Fixed: PAPI placeholders color
-+ Changed: Renamed /config type update to /config type upsert
++ Added: New PlaceholderAPI placeholders
