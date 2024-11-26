@@ -1,1 +1,2 @@
 + Added: New PlaceholderAPI placeholders
+The placeholders of the bot module are available on each server connected to Redis
