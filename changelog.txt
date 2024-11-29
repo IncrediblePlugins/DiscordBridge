@@ -1,2 +1,1 @@
-- Fixed: Unlink error
-- Fixed: Add roles, dont replace
+- Fixed: MySQL error closing ticket etc.
