@@ -43,6 +43,9 @@ general:
   eco-format: '#,###.00'
   # Lets you define the provider to be used for retrieving skins for chat messages in Discord.
   # Relevant for the following modules: chat, lands
+  # Available placeholders:
+  #   uuid = player UUID
+  #   player = player name
   head-provider: 'https://mc-heads.net/avatar/{uuid}'
   # Invite URL to your Discord server. This URL is used in some modules.
   invite-url: "https://discord.gg/YOUR_INVITE"

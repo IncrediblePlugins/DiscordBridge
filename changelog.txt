@@ -1,1 +1,2 @@
-- Fixed: MySQL error closing ticket etc.
+- Fixed: MySQL error deleting ticket field
++ Added: {player} placeholder to head provider
