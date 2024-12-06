@@ -1,2 +1,3 @@
-- Fixed: MySQL error deleting ticket field
-+ Added: {player} placeholder to head provider
++ Added: [Suggestion] More PlaceholderAPI placeholders: https://wiki.incredibleplugins.com/discordbridge/configuration/placeholderapi
++ Added: [Suggestion] PlaceholderAPI support for bot status
++ Added: [Suggestion] Display avatar for player related events
