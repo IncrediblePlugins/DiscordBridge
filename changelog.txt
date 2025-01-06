@@ -1,1 +1,1 @@
-- Fixed: Player related events should have player name as username
+- Fixed: Loading of ticket types without any ticket fields
