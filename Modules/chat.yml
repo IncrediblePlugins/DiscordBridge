@@ -16,6 +16,8 @@ forward:
     # Forward messages from one Discord server to all other Discord servers that have a chat channel set?
     # If you only want messages from Minecraft to be sent to all Discord servers, you don't need that option to be enabled.
     all-servers: false
+    # Also forward messages from other bots?
+    bots: false
 
   # Forward messages from Minecraft to Discord?
   minecraft: true
