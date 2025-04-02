@@ -1,5 +1,2 @@
-+ Added: Option to forward bot messages as well (chat.yml)
-    # Also forward messages from other bots?
-    bots: false
-
-- Fixed: Redis message forwarding
+- Fixed: Ticket module init error
++ Added: /ticket add Discord command
