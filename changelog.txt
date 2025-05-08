@@ -1,2 +1,1 @@
-- Fixed: Ticket module init error
-+ Added: /ticket add Discord command
+- Fixed: Error at kick at unlink
