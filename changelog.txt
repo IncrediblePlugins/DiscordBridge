@@ -1,1 +1,2 @@
-- Fixed: Error at kick at unlink
++ Added: /online Discord command to show online players on the network
+- Fixed: Name sync task
