@@ -1,2 +1,1 @@
-+ Added: /online Discord command to show online players on the network
-- Fixed: Name sync task
+- Fixed: Error when navigating to next page in Discord menu
