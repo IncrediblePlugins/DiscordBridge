@@ -1,1 +1,1 @@
-- Fixed: Error when navigating to next page in Discord menu
++ Added: Being able to disable reminding submitter of ticket (/config set tickets_remind_submitter)
