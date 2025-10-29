@@ -1,1 +1,4 @@
-+ Added: Being able to disable reminding submitter of ticket (/config set tickets_remind_submitter)
++ Added: [Suggestion] Being able to translate lands channel names:
+    name:
+      text: "{object}"
+      voice: "{object}-voice"
